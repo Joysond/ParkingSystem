@@ -1,7 +1,7 @@
 # Parking System
 This is a sample parking lot system which handles vehicle entry and exit flows
 
-### Class Diagram of ParkingLot System
+### Class Diagram of Parking System
 ![alt text](https://raw.githubusercontent.com/Joysond/ParkingSystem/master/parkingsystem/ClassDiagram.jpg)
 
 ### Follow below steps to create database (In my project I have used postgres database)
