@@ -4,7 +4,7 @@
   <class id="1" language="java" name="com.accolite.parkingsystem.models.VehicleInfo" project="parkingsystem" 
     file="/parkingsystem/src/main/java/com/accolite/parkingsystem/models/VehicleInfo.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="369" width="161" x="-142" y="1095"/>    
+    <position height="-1" width="-1" x="403" y="1267"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -14,7 +14,7 @@
   <class id="2" language="java" name="com.accolite.parkingsystem.models.Section" project="parkingsystem" 
     file="/parkingsystem/src/main/java/com/accolite/parkingsystem/models/Section.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="225" width="161" x="59" y="264"/>    
+    <position height="-1" width="-1" x="277" y="4"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -23,17 +23,17 @@
   </class>  
   <class id="3" language="java" name="com.accolite.parkingsystem.models.Gate" project="parkingsystem" 
     file="/parkingsystem/src/main/java/com/accolite/parkingsystem/models/Gate.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="301" y="1415"/>    
+    <position height="-1" width="-1" x="605" y="1664"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="com.accolite.parkingsystem.models.ParkingLot" project="parkingsystem" 
-    file="/parkingsystem/src/main/java/com/accolite/parkingsystem/models/ParkingLot.java" binary="false" 
+  <class id="4" language="java" name="com.accolite.parkingsystem.models.VehicleEntry" project="parkingsystem" 
+    file="/parkingsystem/src/main/java/com/accolite/parkingsystem/models/VehicleEntry.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="207" width="178" x="102" y="17"/>    
+    <position height="-1" width="-1" x="492" y="139"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -43,7 +43,7 @@
   <class id="5" language="java" name="com.accolite.parkingsystem.models.Vehicle" project="parkingsystem" 
     file="/parkingsystem/src/main/java/com/accolite/parkingsystem/models/Vehicle.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="261" width="161" x="59" y="794"/>    
+    <position height="-1" width="-1" x="403" y="858"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -53,88 +53,137 @@
   <enumeration id="6" language="java" name="com.accolite.parkingsystem.models.VehicleType" project="parkingsystem" 
     file="/parkingsystem/src/main/java/com/accolite/parkingsystem/models/VehicleType.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="117" width="161" x="59" y="1095"/>    
+    <position height="-1" width="-1" x="202" y="1114"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <class id="7" language="java" name="com.accolite.parkingsystem.models.Slot" project="parkingsystem" 
-    file="/parkingsystem/src/main/java/com/accolite/parkingsystem/models/Slot.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="225" width="161" x="59" y="529"/>    
+  <class id="7" language="java" name="com.accolite.parkingsystem.models.ParkingLot" project="parkingsystem" 
+    file="/parkingsystem/src/main/java/com/accolite/parkingsystem/models/ParkingLot.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="577" y="-270"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="8">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="9" name="entryGate"/>      
-      <multiplicity id="10" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="11">    
+  <class id="8" language="java" name="com.accolite.parkingsystem.models.Slot" project="parkingsystem" 
+    file="/parkingsystem/src/main/java/com/accolite/parkingsystem/models/Slot.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="328" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="9">    
+    <bendpoint x="439" y="382"/>    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="12" name="sections"/>      
-      <multiplicity id="13" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="14">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="15" name="slots"/>      
-      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="17">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="18" name="exitGate"/>      
-      <multiplicity id="19" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="20">    
-    <bendpoint x="250" y="264"/>    
-    <bendpoint x="250" y="529"/>    
-    <bendpoint x="250" y="794"/>    
-    <bendpoint x="250" y="1095"/>    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="21" name="gates"/>      
-      <multiplicity id="22" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="23">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="24" name="vehicle"/>      
-      <multiplicity id="25" minimum="0" maximum="1"/>    
+      <attribute id="10" name="vehicle"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="26">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="27" name="info"/>      
-      <multiplicity id="28" minimum="0" maximum="1"/>    
+  <association id="12">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="13" name="exitGate"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
+    <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="29">    
+  <association id="15">    
+    <bendpoint x="514" y="382"/>    
+    <bendpoint x="514" y="701"/>    
+    <bendpoint x="514" y="1056"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="16" name="exitGate"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="18">    
+    <bendpoint x="535" y="382"/>    
+    <bendpoint x="535" y="701"/>    
+    <bendpoint x="535" y="1056"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="19" name="entryGate"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="21">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="22" name="vehicle"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="24">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="25" name="slot"/>      
+      <multiplicity id="26" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="27">    
+    <bendpoint x="621" y="-99"/>    
+    <bendpoint x="621" y="382"/>    
+    <bendpoint x="621" y="701"/>    
+    <bendpoint x="621" y="1056"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="28" name="gates"/>      
+      <multiplicity id="29" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="30">    
     <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="30" name="type"/>      
-      <multiplicity id="31" minimum="0" maximum="1"/>    
+      <attribute id="31" name="type"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="34" name="sections"/>      
+      <multiplicity id="35" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="36">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="37" name="entryGate"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="39">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="40" name="slots"/>      
+      <multiplicity id="41" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="42">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="43" name="info"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
