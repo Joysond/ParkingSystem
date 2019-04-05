@@ -1,6 +1,9 @@
 # Parking System
 This is a sample parking lot system which handles vehicle entry and exit flows
 
+### Class Diagram of ParkingLot System
+![alt text](https://raw.githubusercontent.com/Joysond/ParkingSystem/master/parkingsystem/ClassDiagram.jpg)
+
 ### Follow below steps to create database (In my project I have used postgres database)
 1. Create empty databse with the name **parkingsystem**
 2. Update [application.properties](https://github.com/Joysond/ParkingSystem/blob/master/parkingsystem/src/main/resources/application.properties) for databse username, password, url
